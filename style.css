@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#containerCEP{
+    margin-top: 20px;
+}
+
+#maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    margin-top: 30px;
+    width: 372px;
+    height: 30px;
+    background-color: #0065FF;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+table{
+    display: none;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 787px;
+    height: 300px;
+}
+
+th{
+    font-weight: lighter;
+    border: solid 1px black;
+    height: 40px;
+    width: auto;
+    padding-inline: 20px;
+    
+}

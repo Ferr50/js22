@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CEP Map</h1>
+
+    <div id="containerCEP">
+        <div>CEP:</div> 
+        <input id="inputCEP" type="number"><br>
+    </div>
+    <button id="btn">Consultar</button>
+    
+
+    <div id="maps">
+        <table id="tableCEP">
+            <tr>
+                <th id="address"></th>
+                <th id="cep"></th>
+                <th id="city"></th>
+                <th id="ddd"></th>
+                <th id="district"></th>
+                <th id="lat"></th>
+                <th id="lng"></th>
+                <th id="state"></th>
+            </tr>
+            <tr>
+                <th id="address-value"></th>
+                <th id="cep-value"></th>
+                <th id="city-value"></th>
+                <th id="ddd-value"></th>
+                <th id="district-value"></th>
+                <th id="lat-value"></th>
+                <th id="lng-value"></th>
+                <th id="state-value"></th>
+            </tr>
+        </table>
+
+        <iframe id="iframeCEP" width=”600” height=”450” frameborder=”0” style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+    </div>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
